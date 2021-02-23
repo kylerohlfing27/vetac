@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div class="container">
-    <div id="testDiv" class="row justify-content-center">test content</div>
+<div class="container" id="testContainer">
+    <div id="testDiv" class="row">test content</div>
 </div>
 @endsection
