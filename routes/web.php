@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/professional-dev', function () {
+    return view('professional');
+});
+
 Auth::routes();
 
+// ROUTES TO LOGIN PAGE IF NOT LOGGED IN
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
