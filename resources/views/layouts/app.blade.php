@@ -37,8 +37,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <a class="nav-link">Professional Development</a>
-                        <a class="nav-link">Mental Health Awareness</a>
+                        <a class="nav-link" href="pd">Professional Development</a>
+                        <a class="nav-link" href="mental-health">Mental Health Awareness</a>
                         <!-- <a class="nav-link">A Third Link!</a> -->
                     </ul>
 

@@ -21,6 +21,8 @@ Route::get('/pd', function () {
     return view('professional');
 });
 
+Route::view('/mental-health', 'mentalhealth');
+
 Auth::routes();
 
 // ROUTES TO LOGIN PAGE IF NOT LOGGED IN
