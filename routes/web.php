@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/professional-dev', function () {
+Route::get('/pd', function () {
     return view('professional');
 });
 

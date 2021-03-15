@@ -10009,6 +10009,10 @@ h3 {
   height: 30px;
   width: 30px;
 }
+
+#vetacNavIcon {
+  margin-right: 30px;
+}
 #testDiv {
   border: 1px solid black;
   height: 50px;
