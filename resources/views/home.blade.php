@@ -23,6 +23,7 @@
 
 <div class="container-fluid" id="heroDiv">
     <h1 class="row">This is content!</h1>
+    <h3 class="row">Testing github push messages</h3>
 </div>
 
 <div class="container" id="testContainer">
