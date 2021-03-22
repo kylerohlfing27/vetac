@@ -7,6 +7,11 @@ $font-family-base: 'Montserrat', sans-serif;
 
 // Variables
 @import 'variables';
+$primary-red: #FF1716;
+$light-red: #ff4b4a;
+$primary-gray: #F2F2F2;
+$medium-gray: #C0C0C0;
+$tertiary-gray: #888888;
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -19,3 +24,11 @@ $font-family-base: 'Montserrat', sans-serif;
 #vetacNavIcon{
     margin-right: 30px;
 }
+
+// #navbarSupportedContent{
+//     a{
+//         color: $medium-gray !important;
+//     }:hover{
+//         color: $tertiary-gray !important;
+//     }
+// }
