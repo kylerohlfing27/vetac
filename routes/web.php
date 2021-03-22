@@ -23,6 +23,8 @@ Route::get('/pd', function () {
 
 Route::view('/mental-health', 'mentalhealth');
 
+Route::view('/feedback', 'feedback');
+
 Auth::routes();
 
 // ROUTES TO LOGIN PAGE IF NOT LOGGED IN

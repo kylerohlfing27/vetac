@@ -39,7 +39,7 @@
                     <ul class="navbar-nav mr-auto">
                         <a class="nav-link" href="pd">Professional Development</a>
                         <a class="nav-link" href="mental-health">Mental Health Awareness</a>
-                        <!-- <a class="nav-link">A Third Link!</a> -->
+                        <a class="nav-link" href="feedback">Feedback Page</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -51,7 +51,7 @@
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
-                            
+
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
