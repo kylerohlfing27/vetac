@@ -23,10 +23,14 @@
 
 <div class="container-fluid" id="heroDiv">
     <h1 class="row">This is content!</h1>
-    <p>Put more content :(</p>
+    <p>Put more content :( whore</p>
 </div>
 
 <div class="container" id="testContainer">
     <div id="testDiv" class="row">test content</div>
+</div>
+
+<div class="container" id="newID">
+<p>new div yo</p>
 </div>
 @endsection
