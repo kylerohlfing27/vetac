@@ -1,0 +1,33 @@
+#mhJumbo{
+    width: 80%;
+    margin-top: 1em;
+    color: #202225;
+    background-color: #c0c0c0;
+}
+
+#jumboContainer{
+    justify-content: center;
+}
+
+.cardDeck{
+    flex-direction: row;
+}
+
+.cardExtendo{
+    color: #202225;
+    // margin-left: 50px;
+    // margin-right: 50px;
+    margin-bottom: 20px;
+    width: 30% !important;
+    background-color: whitesmoke !important;
+    border: none;
+    box-shadow: 1px 1px 15px #333;
+    a{
+        width: 7em;
+    }
+}
+
+.cardTopExtendo{
+    // height: 20em;
+    // width: 15em;
+}

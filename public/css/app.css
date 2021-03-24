@@ -7370,6 +7370,7 @@ button.bg-dark:focus {
 }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -7389,8 +7390,9 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports (position: sticky) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -10003,6 +10005,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  background-color: #2F3136 !important;
+  color: whitesmoke;
+}
+
 #navbarLogo {
   height: 30px;
   width: 30px;
@@ -10043,10 +10050,6 @@ h3 {
   left: 20px;
   margin-right: 50px;
 }
-body {
-  background-color: #333333 !important;
-}
-
 #testDiv {
   border: 1px solid black;
   height: 50px;
@@ -10135,4 +10138,30 @@ form .submit {
   letter-spacing: 2px;
   height: 50px;
   margin-top: 20px;
+}
+#mhJumbo {
+  width: 80%;
+  margin-top: 1em;
+  color: #202225;
+  background-color: #c0c0c0;
+}
+
+#jumboContainer {
+  justify-content: center;
+}
+
+.cardDeck {
+  flex-direction: row;
+}
+
+.cardExtendo {
+  color: #202225;
+  margin-bottom: 20px;
+  width: 30% !important;
+  background-color: whitesmoke !important;
+  border: none;
+  box-shadow: 1px 1px 15px #333;
+}
+.cardExtendo a {
+  width: 7em;
 }
