@@ -10069,13 +10069,14 @@ body {
   border-top-right-radius: 0.75em !important;
 }
 
-#heroDiv {
+.mainPageImage {
   height: 500px;
   margin-top: 0 !important;
   margin-bottom: 30px !important;
   padding: 0 !important;
+  background-image: url("/images/usa-flag.jpeg");
 }
-#heroDiv img {
+.mainPageImage img {
   position: relative;
   height: 100%;
   width: 100%;

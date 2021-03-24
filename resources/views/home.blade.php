@@ -21,8 +21,8 @@
     </div>
 </div> -->
 
-<div class="container-fluid" id="heroDiv">
-    <img src="{{ URL::asset('/images/usa-flag.jpeg') }}" alt="us-flag" id="usFlagHero">
+<div class="container-fluid mainPageImage">
+    <!-- <img src="{{ URL::asset('/images/usa-flag.jpeg') }}" alt="us-flag" id="usFlagHero"> -->
 </div>
 
 <!-- https://getbootstrap.com/docs/4.4/components/card/#card-layout -->
