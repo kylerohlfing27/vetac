@@ -63,7 +63,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #333333;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -476,7 +476,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #f8fafc;
+  background-color: #333333;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -3736,13 +3736,13 @@ input[type=button].btn-block {
   outline: 0;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #f8fafc, 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+  box-shadow: 0 0 0 1px #333333, 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #f8fafc, 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+  box-shadow: 0 0 0 1px #333333, 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #f8fafc, 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+  box-shadow: 0 0 0 1px #333333, 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -3916,8 +3916,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #f8fafc;
-  border-color: #dee2e6 #dee2e6 #f8fafc;
+  background-color: #333333;
+  border-color: #dee2e6 #dee2e6 #333333;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -10013,6 +10013,42 @@ h3 {
 #vetacNavIcon {
   margin-right: 30px;
 }
+
+.sidenavbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #c0c0c0;
+  color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+.sidenavbar a {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+.sidenavbar :hover {
+  color: white;
+}
+.sidenavbar .closebutton {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  margin-right: 50px;
+}
+body {
+  color: #C0C0C0 !important;
+}
+
 #testDiv {
   border: 1px solid black;
   height: 50px;
@@ -10024,12 +10060,80 @@ h3 {
   height: 200px;
 }
 
-#heroDiv {
-  border: 1px solid black;
-  height: 350px;
+.card-deck .card {
+  border-radius: 0.75em !important;
+  box-shadow: 4px 3px 10px #DDDDDD;
+}
+.card-deck .card-img-top {
+  border-top-left-radius: 0.75em !important;
+  border-top-right-radius: 0.75em !important;
 }
 
-#newID {
-  border: 5px solid red;
-  height: 200px;
+#heroDiv {
+  height: 500px;
+  margin-top: 0 !important;
+  margin-bottom: 30px !important;
+  padding: 0 !important;
+}
+#heroDiv img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.py-4 {
+  padding-top: 0 !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color: red;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: red;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
 }

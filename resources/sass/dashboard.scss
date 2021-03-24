@@ -1,3 +1,7 @@
+body{
+    color: #C0C0C0 !important;
+}
+
 #testDiv{
     border: 1px solid black;
     height: 50px;
@@ -7,19 +11,32 @@
 #testContainer{
     width: 250px;
     height: 200px;
-
 }
 
-#cardContainer{
-    
+.card-deck{
+    .card{
+        border-radius: .75em !important;
+        box-shadow: 4px 3px 10px #DDDDDD;
+    }
+    .card-img-top{
+        border-top-left-radius: .75em !important;
+        border-top-right-radius: .75em !important;
+    }
 }
 
 #heroDiv{
-    border: 1px solid black;
-    height: 350px;
+    // border: 1px solid black;
+    height: 500px;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    padding: 0 !important;
+    img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
 }
 
-#newID{
-    border: 5px solid red;
-    height: 200px;
+.py-4{
+    padding-top: 0 !important;
 }

@@ -12,6 +12,7 @@ $light-red: #ff4b4a;
 $primary-gray: #F2F2F2;
 $medium-gray: #C0C0C0;
 $tertiary-gray: #888888;
+$dark-ass-gray: #333333;
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -25,10 +26,33 @@ $tertiary-gray: #888888;
     margin-right: 30px;
 }
 
-// #navbarSupportedContent{
-//     a{
-//         color: $medium-gray !important;
-//     }:hover{
-//         color: $tertiary-gray !important;
-//     }
-// }
+.sidenavbar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #c0c0c0;
+    color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    a{
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }:hover{
+        color: white;
+    }
+    .closebutton{
+        position: absolute;
+        top: 0;
+        left: 20px;
+        margin-right: 50px;
+    }
+}

@@ -22,8 +22,7 @@
 </div> -->
 
 <div class="container-fluid" id="heroDiv">
-    <h1 class="row">This Will be a stock photo slide show running through the different servicves the site offers </h1>
-    <p>ye ye </p>
+    <img src="{{ URL::asset('/images/usa-flag.jpeg') }}" alt="us-flag" id="usFlagHero">
 </div>
 
 <!-- https://getbootstrap.com/docs/4.4/components/card/#card-layout -->
@@ -56,8 +55,4 @@
     </div>
 </div>
 
-
-<div class="container" id="newID">
-<p>new div yo</p>
-</div>
 @endsection
