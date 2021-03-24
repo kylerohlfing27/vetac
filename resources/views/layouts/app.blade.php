@@ -24,7 +24,7 @@
 </head>
 <body>
     <div id="app">
-        <div class="sidenavbar">
+        <!-- <div class="sidenavbar"> -->
             <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
                 <div class="container" id="navContainer">
                     <a class="navbar-brand" href="{{ url('/') }}" id="vetacNavIcon">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </nav>
-        </div>
+        <!-- </div> -->
         
 
         <main class="py-4">
