@@ -25,6 +25,10 @@
     <!-- <img src="{{ URL::asset('/images/usa-flag.jpeg') }}" alt="us-flag" id="usFlagHero"> -->
 </div>
 
+<!-- <div class="container-fluid" id="heroDiv">
+    <img src="{{ URL::asset('/images/sparklerUSA.jpg') }}" alt="flag" id="usFlagHero">
+</div> -->
+
 <!-- https://getbootstrap.com/docs/4.4/components/card/#card-layout -->
 <div class="container">
     <div class="card-deck" id="cardContainer">
