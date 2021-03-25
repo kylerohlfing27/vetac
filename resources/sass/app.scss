@@ -17,6 +17,11 @@ $dark-ass-gray: #333333;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body{
+    background-color: #2F3136 !important;
+    color: whitesmoke;
+}
+
 #navbarLogo{
     height: 30px;
     width: 30px;

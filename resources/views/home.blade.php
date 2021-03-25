@@ -32,7 +32,7 @@
 <!-- https://getbootstrap.com/docs/4.4/components/card/#card-layout -->
 <div class="container">
     <div class="card-deck" id="cardContainer">
-
+    
         <div class="card">
             <img src="{{ URL::asset('/images/depression.jpg') }}" class="card-img-top" alt="ope">
             <div class="card-body">

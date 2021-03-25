@@ -331,7 +331,7 @@ eval("window._ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodas
   \********************************/
 /***/ (() => {
 
-eval("function slideToTheLeft() {\n  document.getElementById(\"sidenavbar\").style.width = \"200px\";\n}\n\nfunction slideToTheRight() {\n  document.getElementById(\"closebutton\").style.width = \"0\";\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvbmF2YmFyLmpzP2JiMTYiXSwibmFtZXMiOlsic2xpZGVUb1RoZUxlZnQiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwic3R5bGUiLCJ3aWR0aCIsInNsaWRlVG9UaGVSaWdodCJdLCJtYXBwaW5ncyI6IkFBQUEsU0FBU0EsY0FBVCxHQUEwQjtBQUN0QkMsRUFBQUEsUUFBUSxDQUFDQyxjQUFULENBQXdCLFlBQXhCLEVBQXNDQyxLQUF0QyxDQUE0Q0MsS0FBNUMsR0FBbUQsT0FBbkQ7QUFDSDs7QUFDRCxTQUFVQyxlQUFWLEdBQTRCO0FBQ3hCSixFQUFBQSxRQUFRLENBQUNDLGNBQVQsQ0FBd0IsYUFBeEIsRUFBdUNDLEtBQXZDLENBQTZDQyxLQUE3QyxHQUFvRCxHQUFwRDtBQUNIIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gc2xpZGVUb1RoZUxlZnQoKSB7XG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJzaWRlbmF2YmFyXCIpLnN0eWxlLndpZHRoPSBcIjIwMHB4XCI7XG59XG5mdW5jdGlvbiAgc2xpZGVUb1RoZVJpZ2h0KCkge1xuICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiY2xvc2VidXR0b25cIikuc3R5bGUud2lkdGg9IFwiMFwiO1xufSJdLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvbmF2YmFyLmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/navbar.js\n");
+eval("function slideToTheLeft() {\n  document.getElementById(\"Navigation\").style.width = \"150px\";\n}\n\nfunction slideToTheRight() {\n  document.getElementById(\"Navigation\").style.width = \"0px\";\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvbmF2YmFyLmpzP2JiMTYiXSwibmFtZXMiOlsic2xpZGVUb1RoZUxlZnQiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwic3R5bGUiLCJ3aWR0aCIsInNsaWRlVG9UaGVSaWdodCJdLCJtYXBwaW5ncyI6IkFBQUEsU0FBU0EsY0FBVCxHQUEwQjtBQUN0QkMsRUFBQUEsUUFBUSxDQUFDQyxjQUFULENBQXdCLFlBQXhCLEVBQXNDQyxLQUF0QyxDQUE0Q0MsS0FBNUMsR0FBbUQsT0FBbkQ7QUFDSDs7QUFDRCxTQUFVQyxlQUFWLEdBQTRCO0FBQ3hCSixFQUFBQSxRQUFRLENBQUNDLGNBQVQsQ0FBd0IsWUFBeEIsRUFBc0NDLEtBQXRDLENBQTRDQyxLQUE1QyxHQUFtRCxLQUFuRDtBQUNIIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gc2xpZGVUb1RoZUxlZnQoKSB7XG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJOYXZpZ2F0aW9uXCIpLnN0eWxlLndpZHRoPSBcIjE1MHB4XCI7XG59XG5mdW5jdGlvbiAgc2xpZGVUb1RoZVJpZ2h0KCkge1xuICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiTmF2aWdhdGlvblwiKS5zdHlsZS53aWR0aD0gXCIwcHhcIjtcbn1cbiJdLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvbmF2YmFyLmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/navbar.js\n");
 
 /***/ }),
 
@@ -395,6 +395,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9mZWVkYmFjay5zY3NzPzhkZGEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL3Nhc3MvZmVlZGJhY2suc2Nzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/sass/feedback.scss\n");
+
+/***/ }),
+
+/***/ "./resources/sass/mentalhealth.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/mentalhealth.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9tZW50YWxoZWFsdGguc2Nzcz8xMzgxIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9zYXNzL21lbnRhbGhlYWx0aC5zY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/mentalhealth.scss\n");
 
 /***/ }),
 
@@ -593,7 +604,8 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/navbar.js")))
 /******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
 /******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/dashboard.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/feedback.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/feedback.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/mentalhealth.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
