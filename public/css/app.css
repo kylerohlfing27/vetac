@@ -10071,16 +10071,25 @@ body {
 }
 
 .mainPageImage {
-  height: 500px;
+  height: 41rem;
   margin-top: 0 !important;
   margin-bottom: 30px !important;
   padding: 0 !important;
-  background-image: url("/images/usa-flag.jpeg");
 }
 .mainPageImage img {
   position: relative;
   height: 100%;
   width: 100%;
+}
+
+#usFlagHero {
+  background-image: url("/images/usa-flag.jpeg");
+}
+
+#handshakeHero {
+  background-image: url("/images/handshake.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .py-4 {

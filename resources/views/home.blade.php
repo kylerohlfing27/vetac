@@ -21,13 +21,12 @@
     </div>
 </div> -->
 
-<div class="container-fluid mainPageImage">
+<div class="container-fluid mainPageImage" id="usFlagHero">
     <!-- <img src="{{ URL::asset('/images/usa-flag.jpeg') }}" alt="us-flag" id="usFlagHero"> -->
 </div>
 
-<!-- <div class="container-fluid" id="heroDiv">
-    <img src="{{ URL::asset('/images/sparklerUSA.jpg') }}" alt="flag" id="usFlagHero">
-</div> -->
+<div class="container-fluid mainPageImage" id="handshakeHero">
+</div>
 
 <!-- https://getbootstrap.com/docs/4.4/components/card/#card-layout -->
 <div class="container">
