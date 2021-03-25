@@ -25,7 +25,7 @@
 <body>
     <div id="app">
         <!-- <div class="sidenavbar"> -->
-            <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
+            <!-- <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
                 <div class="container" id="navContainer">
                     <a class="navbar-brand" href="{{ url('/') }}" id="vetacNavIcon">
                         <img src="{{ URL::asset('/images/vetac-icon.png') }}" alt="VeTAC Logo" id="navbarLogo">
@@ -37,16 +37,16 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
-                        <ul class="navbar-nav mr-auto">
+                        <!-- <ul class="navbar-nav mr-auto">
                             <a class="nav-link" href="pd">Professional Development</a>
                             <a class="nav-link" href="mental-health">Mental Health Awareness</a>
                             <a class="nav-link" href="feedback">Feedback Page</a>
-                        </ul>
+                        </ul> -->
 
                         <!-- Right Side Of Navbar -->
-                        <ul class="navbar-nav ml-auto">
+                        <!-- <ul class="navbar-nav ml-auto"> -->
                             <!-- Authentication Links -->
-                            @guest
+                            <!-- @guest
                                 @if (Route::has('login'))
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -80,20 +80,29 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
         <!-- </div> -->
 
 
         <main class="py-4">
-        <div id="sidenavbar">
-        
-        <div>
-        <button type="button" class="navbarBtn">
-            <span onclick="javascript:slideToTheLeft()">
-                <img class="navpicture"src="/images/navButton.svg" alt="button">
-            </span>&nbsp;
-        </button>
+            <div class="navigation">
+                <a href="">Job Posting Board</a>
+                <a href="nav-link" href="pd">Professional Development</a>
+                <a href="mental-health">Mental Health</a>
+                <a href="feedback">Feedback</a>
+                <a href="">Profile</a>
+            </div>
+
+            <div class="content">
             @yield('content')
+                <div class="openBar" onclick="document.body.classList.toggle('sideNavActive')">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </div>  
+                
+            </div>
+       
         </main>
     </div>
 </body>

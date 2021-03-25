@@ -1,6 +1,6 @@
 function slideToTheLeft() {
-    document.getElementById("sidenavbar").style.width= "200px";
+    document.getElementById("Navigation").style.width= "150px";
 }
 function  slideToTheRight() {
-    document.getElementById("closebutton").style.width= "0";
+    document.getElementById("Navigation").style.width= "0px";
 }

@@ -26,57 +26,135 @@ $dark-ass-gray: #333333;
     margin-right: 30px;
 }
 
-.sidenavbar{
-    height: 100%;
-    width: 0px;
+// .sideNavBar{
+//     height: 100%;
+//     width: 0px;
+//     position: fixed;
+//     top: 0px !important;
+//     right: 0px!important;
+//     z-index: 1;
+//     background-color: #c0c0c0;
+//     color: black;
+//     overflow-x: hidden;
+//     transition: 0.5s;
+//     padding-top: 50px;
+//     a{
+//         padding-top: 10px;
+//         padding-right: 30px;
+//         padding-bottom: 10px;
+//         padding-left: 10px;
+//         color:white;
+//         text-decoration: none;
+//         display: block;
+//         transition: 0.3s;
+//     }:hover{
+//         color: white;
+//     }
+//     .closeButton{
+//         position: absolute;
+//         top: 0;
+//         left: 20px;
+//         margin-right: 50px;
+//     }
+// }
+
+// .navbarBtn{
+//     border-radius: 50%;
+//     height: 50px;
+//     width: 50px;
+//     top: 0;
+//     right: 0;
+//     margin-top: 50px;
+//     margin-right: 50px;
+//     opacity: 25%;
+//     position: fixed;
+// }
+// .navPicture{
+//     height: 50px;
+//     width: 85px;
+//     top: 0;
+//     right: 0;
+//     margin-top: 40px;
+//     margin-right: 14px;
+//     position: fixed;
+//     opacity: 50%
+// }
+
+.navigation{
     position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    background-color: #c0c0c0;
-    color: black;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 50px;
-    a{
-        padding-top: 10px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        text-decoration: none;
-        display: block;
-        transition: 0.3s;
-    }:hover{
-        color: white;
-    }
-    .closebutton{
-        position: absolute;
-        top: 0;
-        left: 20px;
-        margin-right: 50px;
-    }
+    top: 0px;
+    left:0px;
+    width:100vw;
+    height: 100vh;
+    padding: 80px 0px;
+    background-color: #2F3136;
 }
 
-.navbarBtn{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    top: 0;
-    right: 0;
-    margin-top: 50px;
-    margin-right: 50px;
-    opacity: 50%;
-    background-color:lightgray;
-    
-    position: fixed;
+.navigation a{
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin: 5px 0px;
+    padding:5px 30px;
+    max-width:250px;
+    text-decoration: none;
+    text-align: left;
+    transition: all 550ms ease-in-out;
 }
-.navpicture{
-    height: 50px;
-    width: 85px;
-    top: 0;
-    right: 0;
-    margin-top: 40px;
-    margin-right: 14px;
-    position: fixed;
-    opacity: 50%
+.navigation a:hover{
+    background: rgba(100,100,100,0.3);
+}
+
+.content{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:400vw;
+    min-height:150vw;
+    z-index:2;
+    padding:80px 0px;
+    transition:all 450ms ease-in-out;
+}
+
+.content .openBar {
+    position:fixed;
+    top: 20px;
+    left:20px;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+.content .openBar span {
+    width:75%;
+    height: 5px;
+    background:white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition:all 450ms ease-in-out;
+}
+.content .openBar span:nth-child(1) {
+    top: 25%;
+}
+.content .openBar span:nth-child(3) {
+    top:75%
+}
+
+body.sideNavActive .content {
+    top: 80px;
+    left:250px;
+}
+
+body.sideNavActive .content .openBar span:nth-child(1) {
+    top:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+}
+body.sideNavActive .content .openBar span:nth-child(3) {
+    top:50%;
+    transform:translate(-50%,-50%) rotate(-45deg);
+}
+body.sideNavActive .content .openBar span:nth-child(2) {
+    display:none;
 }
