@@ -82,11 +82,22 @@
                 </div>
             </nav>
         <!-- </div> -->
-        
+
 
         <main class="py-4">
+        <div id="sidenavbar">
+        
+        <div>
+        <button type="button" class="navbarBtn">
+            <span onclick="javascript:slideToTheLeft()">
+                <img class="navpicture"src="/images/navButton.svg" alt="button">
+            </span>&nbsp;
+        </button>
             @yield('content')
         </main>
     </div>
 </body>
 </html>
+
+
+
