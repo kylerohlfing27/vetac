@@ -14,6 +14,7 @@
     
 }
 
+<<<<<<< Updated upstream
 #heroDiv{
     border: 1px solid black;
     height: 350px;
@@ -22,4 +23,32 @@
 #newID{
     border: 5px solid red;
     height: 200px;
+=======
+.mainPageImage{
+    // border: 1px solid black;
+    height: 43.75rem;
+    margin-top: 0 !important;
+    // margin-bottom: 30px !important;
+    padding: 0 !important;
+    img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+#usFlagHero{
+    background-image: url("/images/usa-flag.jpeg");
+}
+
+#handshakeHero{
+    background-image: url("/images/handshake.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.py-4{
+    padding-top: 0 !important;
+>>>>>>> Stashed changes
 }

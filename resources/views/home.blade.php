@@ -21,11 +21,21 @@
     </div>
 </div> -->
 
+<<<<<<< Updated upstream
 <div class="container-fluid" id="heroDiv">
     <h1 class="row">This Will be a stock photo slide show running through the different servicves the site offers </h1>
     <p>ye ye </p>
 </div>
 
+=======
+<div class="container-fluid mainPageImage" id="usFlagHero">
+    <!-- <img src="{{ URL::asset('/images/usa-flag.jpeg') }}" alt="us-flag" id="usFlagHero"> -->
+</div>
+
+<div class="container-fluid mainPageImage" id="handshakeHero">
+</div>
+
+>>>>>>> Stashed changes
 <!-- https://getbootstrap.com/docs/4.4/components/card/#card-layout -->
 <div class="container">
     <div class="card-deck" id="cardContainer">

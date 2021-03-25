@@ -10013,23 +10013,56 @@ h3 {
 #vetacNavIcon {
   margin-right: 30px;
 }
-#testDiv {
-  border: 1px solid black;
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color: red;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: red;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
   height: 50px;
   margin-top: 20px;
-}
-
-#testContainer {
-  width: 250px;
-  height: 200px;
-}
-
-#heroDiv {
-  border: 1px solid black;
-  height: 350px;
-}
-
-#newID {
-  border: 5px solid red;
-  height: 200px;
 }
