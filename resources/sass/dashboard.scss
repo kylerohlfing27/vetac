@@ -5,16 +5,35 @@
 }
 
 #testContainer{
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
 
-#heroDiv{
-    border: 1px solid black;
-    height: 350px;
+.card-deck{
+    .card{
+        border-radius: .75em !important;
+        box-shadow: 4px 3px 10px #DDDDDD;
+    }
+    .card-img-top{
+        border-top-left-radius: .75em !important;
+        border-top-right-radius: .75em !important;
+    }
 }
 
-#newID{
-    border: 5px solid red;
-    height: 200px;
+.mainPageImage{
+    // border: 1px solid black;
+    height: 500px;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    padding: 0 !important;
+    background-image: url("/images/usa-flag.jpeg");
+    img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.py-4{
+    padding-top: 0 !important;
 }

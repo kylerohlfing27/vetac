@@ -325,6 +325,16 @@ eval("window._ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodas
 
 /***/ }),
 
+/***/ "./resources/js/navbar.js":
+/*!********************************!*\
+  !*** ./resources/js/navbar.js ***!
+  \********************************/
+/***/ (() => {
+
+eval("function rightSlideNav() {\n  document.getElementById(\"sidenavbar\").style.width = \"200px\";\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvbmF2YmFyLmpzP2JiMTYiXSwibmFtZXMiOlsicmlnaHRTbGlkZU5hdiIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiLCJzdHlsZSIsIndpZHRoIl0sIm1hcHBpbmdzIjoiQUFBQSxTQUFTQSxhQUFULEdBQXlCO0FBQ3JCQyxFQUFBQSxRQUFRLENBQUNDLGNBQVQsQ0FBd0IsWUFBeEIsRUFBc0NDLEtBQXRDLENBQTRDQyxLQUE1QyxHQUFtRCxPQUFuRDtBQUNIIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gcmlnaHRTbGlkZU5hdigpIHtcbiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcInNpZGVuYXZiYXJcIikuc3R5bGUud2lkdGg9IFwiMjAwcHhcIjtcbn0iXSwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL25hdmJhci5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/navbar.js\n");
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -385,6 +395,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9mZWVkYmFjay5zY3NzPzhkZGEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL3Nhc3MvZmVlZGJhY2suc2Nzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/sass/feedback.scss\n");
+
+/***/ }),
+
+/***/ "./resources/sass/mentalhealth.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/mentalhealth.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9tZW50YWxoZWFsdGguc2Nzcz8xMzgxIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9zYXNzL21lbnRhbGhlYWx0aC5zY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/mentalhealth.scss\n");
 
 /***/ }),
 
@@ -506,9 +527,11 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 		
 /******/ 		var deferredModules = [
 /******/ 			["./resources/js/app.js"],
+/******/ 			["./resources/js/navbar.js"],
 /******/ 			["./resources/sass/app.scss"],
 /******/ 			["./resources/sass/dashboard.scss"],
-/******/ 			["./resources/sass/feedback.scss"]
+/******/ 			["./resources/sass/feedback.scss"],
+/******/ 			["./resources/sass/mentalhealth.scss"]
 /******/ 		];
 /******/ 		// no chunk on demand loading
 /******/ 		
