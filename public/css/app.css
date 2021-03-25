@@ -10014,7 +10014,7 @@ h3 {
 
 .sidenavbar {
   height: 100%;
-  width: 0;
+  width: 0px;
   position: fixed;
   top: 0;
   right: 0;
@@ -10042,6 +10042,30 @@ h3 {
   top: 0;
   left: 20px;
   margin-right: 50px;
+}
+
+.navbarBtn {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  top: 0;
+  right: 0;
+  margin-top: 50px;
+  margin-right: 50px;
+  opacity: 50%;
+  background-color: lightgray;
+  position: fixed;
+}
+
+.navpicture {
+  height: 50px;
+  width: 85px;
+  top: 0;
+  right: 0;
+  margin-top: 40px;
+  margin-right: 14px;
+  position: fixed;
+  opacity: 50%;
 }
 body {
   background-color: #333333 !important;
