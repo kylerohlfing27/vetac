@@ -17,4 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/dashboard.scss', 'public/css/app.css')
     .sass('resources/sass/feedback.scss', 'public/css/app.css')
     .sass('resources/sass/mentalhealth.scss', 'public/css/app.css')
+    .sass('resources/sass/profdev.scss', 'public/css/app.css')
     .sourceMaps();
