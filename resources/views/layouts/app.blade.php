@@ -25,7 +25,7 @@
 <body>
     <div id="app">
         <!-- <div class="sidenavbar"> -->
-            <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
+            <nav class="navbar navbar-expand-md navbar-dark shadow-sm" id="navvy">
                 <div class="container" id="navContainer">
                     <a class="navbar-brand" href="{{ url('/') }}" id="vetacNavIcon">
                         <img src="{{ URL::asset('/images/vetac-icon.png') }}" alt="VeTAC Logo" id="navbarLogo">

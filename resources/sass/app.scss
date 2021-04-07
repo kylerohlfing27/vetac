@@ -13,13 +13,22 @@ $primary-gray: #F2F2F2;
 $medium-gray: #C0C0C0;
 $tertiary-gray: #888888;
 $dark-ass-gray: #333333;
+$dg-gray: #2F3136;
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 body{
-    background-color: #2F3136 !important;
+    background-color: #18191c !important;
     color: whitesmoke;
+    height: 1500px;
+}
+
+#navvy{
+    background-color: $dg-gray;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 #navbarLogo{
