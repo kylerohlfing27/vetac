@@ -38,7 +38,17 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
                         <ul class="navbar-nav mr-auto">
-                            <a class="nav-link" href="pd">Professional Development</a>
+                            {{-- <a class="nav-link" href="pd">Professional Development</a> --}}
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="navPdDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Professional Development
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Interview Tips</a>
+                                  <a class="dropdown-item" href="#">Resume Strategies</a>
+                                  <a class="dropdown-item" href="#">Goal Setting</a>
+                                </div>
+                            </div>
                             <a class="nav-link" href="mental-health">Mental Health Awareness</a>
                             <a class="nav-link" href="feedback">Feedback Page</a>
                         </ul>

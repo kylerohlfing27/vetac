@@ -41,6 +41,11 @@
     box-shadow: 1px 1px 15px #333;
     a{
         width: 7em;
+        background-color: #FF1716;
+        border: none;
+    }
+    a:hover{
+        background-color: #d11413;
     }
     max-width: 400px;
 }

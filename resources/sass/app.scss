@@ -19,7 +19,7 @@ $dg-gray: #2F3136;
 @import '~bootstrap/scss/bootstrap';
 
 body{
-    background-color: #18191c !important;
+    background-color: #2b2b30 !important;
     color: whitesmoke;
     height: 1500px;
 }
@@ -29,6 +29,18 @@ body{
     position: sticky;
     top: 0;
     z-index: 9999;
+}
+
+#navPdDropdown{
+    background-color: $dg-gray;
+    color: whitesmoke;
+    border: none;
+    :focus{
+        border: none !important;
+    }
+    :hover{
+        background-color: #4a4b57 !important;
+    }
 }
 
 #navbarLogo{

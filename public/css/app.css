@@ -10004,7 +10004,7 @@ h3 {
   }
 }
 body {
-  background-color: #18191c !important;
+  background-color: #2b2b30 !important;
   color: whitesmoke;
   height: 1500px;
 }
@@ -10014,6 +10014,18 @@ body {
   position: sticky;
   top: 0;
   z-index: 9999;
+}
+
+#navPdDropdown {
+  background-color: #2F3136;
+  color: whitesmoke;
+  border: none;
+}
+#navPdDropdown :focus {
+  border: none !important;
+}
+#navPdDropdown :hover {
+  background-color: #4a4b57 !important;
 }
 
 #navbarLogo {
@@ -10185,6 +10197,11 @@ form .submit {
 }
 .cardExtendo a {
   width: 7em;
+  background-color: #FF1716;
+  border: none;
+}
+.cardExtendo a:hover {
+  background-color: #d11413;
 }
 
 .cardTopExtendo {
