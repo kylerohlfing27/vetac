@@ -10006,7 +10006,6 @@ h3 {
 body {
   background-color: #2b2b30 !important;
   color: whitesmoke;
-  height: 1500px;
 }
 
 #navvy {
@@ -10022,7 +10021,7 @@ body {
   border: none;
 }
 #navPdDropdown :focus {
-  border: none !important;
+  outline: none !important;
 }
 #navPdDropdown :hover {
   background-color: #4a4b57 !important;

@@ -21,7 +21,7 @@ $dg-gray: #2F3136;
 body{
     background-color: #2b2b30 !important;
     color: whitesmoke;
-    height: 1500px;
+    // height: 1500px;
 }
 
 #navvy{
@@ -36,7 +36,7 @@ body{
     color: 222222;
     border: none;
     :focus{
-        border: none !important;
+        outline: none !important;
     }
     :hover{
         background-color: #4a4b57 !important;
