@@ -21,6 +21,18 @@ Route::get('/pd', function () {
     return view('professional');
 });
 
+Route::get('/interviewtips', function () {
+    return view('interviewtips');
+});
+
+Route::get('/resumestrategies', function () {
+    return view('resume');
+});
+
+Route::get('/goalsetting', function () {
+    return view('goalsetting');
+});
+
 Route::view('/mental-health', 'mentalhealth');
 
 Route::view('/feedback', 'feedback');

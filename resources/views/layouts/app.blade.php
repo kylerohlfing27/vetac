@@ -44,9 +44,9 @@
                                   Professional Development
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Interview Tips</a>
-                                  <a class="dropdown-item" href="#">Resume Strategies</a>
-                                  <a class="dropdown-item" href="#">Goal Setting</a>
+                                  <a class="dropdown-item" href="/interviewtips">Interview Tips</a>
+                                  <a class="dropdown-item" href="/resumestrategies">Resume Strategies</a>
+                                  <a class="dropdown-item" href="/goalsetting">Goal Setting</a>
                                 </div>
                             </div>
                             <a class="nav-link" href="mental-health">Mental Health Awareness</a>
