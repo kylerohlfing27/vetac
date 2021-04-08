@@ -10035,38 +10035,6 @@ body {
 #vetacNavIcon {
   margin-right: 30px;
 }
-
-.sidenavbar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  background-color: #c0c0c0;
-  color: black;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 50px;
-}
-.sidenavbar a {
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  text-decoration: none;
-  display: block;
-  transition: 0.3s;
-}
-.sidenavbar :hover {
-  color: white;
-}
-.sidenavbar .closebutton {
-  position: absolute;
-  top: 0;
-  left: 20px;
-  margin-right: 50px;
-}
 #testDiv {
   border: 1px solid black;
   height: 50px;
@@ -10107,14 +10075,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: sans-serif;
 }
 
 .contact-title {
   margin-top: 100px;
-  color: red;
-  text-transform: uppercase;
-  transition: all 4s ease-in-out;
+  color: whitesmoke;
 }
 
 .contact-title h1 {
@@ -10128,7 +10093,6 @@ body {
 
 form {
   margin-top: 50px;
-  transition: all 4s ease-in-out;
 }
 
 .form-control {
@@ -10137,7 +10101,7 @@ form {
   border: none;
   outline: none;
   border-bottom: 1px solid gray;
-  color: red;
+  color: whitesmoke;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -10147,9 +10111,9 @@ input {
 }
 
 form .submit {
-  background: #ff5722;
+  background: lightslategray;
   border-color: transparent;
-  color: red;
+  color: whitesmoke;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -10210,3 +10174,4 @@ form .submit {
   height: 20rem !important;
   background-color: #fff;
 }
+

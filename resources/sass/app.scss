@@ -52,33 +52,33 @@ body{
     margin-right: 30px;
 }
 
-.sidenavbar{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    background-color: #c0c0c0;
-    color: black;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 50px;
-    a{
-        padding-top: 10px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        text-decoration: none;
-        display: block;
-        transition: 0.3s;
-    }:hover{
-        color: white;
-    }
-    .closebutton{
-        position: absolute;
-        top: 0;
-        left: 20px;
-        margin-right: 50px;
-    }
-}
+// .sidenavbar{
+//     height: 100%;
+//     width: 0;
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+//     z-index: 1;
+//     background-color: #c0c0c0;
+//     color: black;
+//     overflow-x: hidden;
+//     transition: 0.5s;
+//     padding-top: 50px;
+//     a{
+//         padding-top: 10px;
+//         padding-right: 30px;
+//         padding-bottom: 10px;
+//         padding-left: 10px;
+//         text-decoration: none;
+//         display: block;
+//         transition: 0.3s;
+//     }:hover{
+//         color: white;
+//     }
+//     .closebutton{
+//         position: absolute;
+//         top: 0;
+//         left: 20px;
+//         margin-right: 50px;
+//     }
+// }
